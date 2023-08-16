@@ -10,14 +10,17 @@ Plaats hier wanneer je aan de opdracht hebt gewerkt, hoelang dat je aan de opdra
 
 * <i> Zondag 13/8/2023, van 09.00u tot 13.00u (4u), opzoekwerk gedaan naar mogelijk onderwerp voor de opdracht. En beginnen met de html start pagina</i>
 * <i> Maandag 14/8/2023 , van 09.00 tot 13.00u (4u), html en css start pagina en git.</i>
+* <i> dinsdag 15/8/2023 , van 16.00 tot 20.00u (4u), html en css start pagina en responsiev.</i>
+* <i> woensdag 16/8/2023 , van 12.00 tot 15.00u (4u), html en css de basis van de 2de pagina "vrouwen".</i>
+* <i> woensdag 16/8/2023 , van 17.00 tot 20.00u (4u), html en css de basis van de 3de pagina "mannen".</i>
 * ...
 * ...
 * ...
 
 ## BRONNENLIJST
-* BRON 1:
-* BRON 2:
-* BRON 3:
+* decathlon
+* nike
+* adidas
 * ...
 
 ## OPMERKINGEN
