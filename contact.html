@@ -5,10 +5,12 @@
     <title>contact</title>
     <link rel="stylesheet" href="style.css">
 </head>
-<body>
-<div class="home-container">
+<body class="contact-body">
+<div class="contact-container">
+    <header>
+
     <nav class="home-nav">
-        <a href="index.html" class="home-logo">jump</a>
+        <a href="index.html" id="home-logo">jump</a>
         <ul>
             <li><a href="index.html">Home</a></li>
             <li><a href="schoenen.html#vrouwen-sector" target="_self">Vrouwen</a></li>
@@ -18,7 +20,103 @@
             <li><a href="profiel.html">Mijn profiel</a></li>
         </ul>
     </nav>
+    </header>
+    <main>
+
+    <div class="contact">
+        <form class="contact-form">
+
+            <fieldset>
+                <legend> Hoofd kantoor</legend>
+                <div id="naam-div">
+                    <label for="naam"> Naam : </label>
+                    <label>
+                        <input id="naam"
+                               type="text"
+                               readonly value="Ismail">
+                    </label>
+                </div>
+                <div id="voorn-div">
+                    <label for="voorn"> Voornaam : </label>
+                    <label>
+                        <input id="voorn" type="text"
+                               readonly value="Ashraf">
+                    </label>
+                </div>
+                <div id="email-div">
+                    <label for="email"> Email : </label>
+                    <label>
+                        <input id="email"
+                               type="email"
+                               readonly value="a.ismail86@yahoo.com">
+                    </label>
+
+                </div>
+
+                <div id="gsm-div">
+                    <label for="gsm"> GSM nu : </label>
+                    <label>
+                        <input id="gsm"
+                               type="text"
+                               readonly value="0032465280009">
+                    </label>
+                </div>
+
+            </fieldset>
+            <fieldset>
+                <legend> Klantservice kantoor</legend>
+                <div id="naam-kl-sr">
+                    <label for="naam-kl"> Naam : </label>
+                    <label>
+                        <input id="naam-kl"
+                               type="text"
+                               readonly value="Jan">
+                    </label>
+                </div>
+                <div id="voorn-kl-sr">
+                    <label for="voorn-kl"> Voornaam : </label>
+                    <label>
+                        <input id="voorn-kl" type="text"
+                               readonly value="Chriss">
+                    </label>
+                </div>
+                <div id="email-kl-sr">
+                    <label for="email-kl"> Email : </label>
+                    <label>
+                        <input id="email-kl"
+                               type="email"
+                               readonly value="chriss1995@yahoo.com">
+                    </label>
+
+                </div>
+
+                <div id="gsm-kl-sr">
+                    <label for="gsm-kl"> GSM nu : </label>
+                    <label>
+                        <input id="gsm-kl"
+                               type="text"
+                               readonly value="0032546875321">
+                    </label>
+                </div>
+
+            </fieldset>
+        </form>
+
+    </div>
+    </main>
 </div>
+<footer>
+    <div class="social social-contact">
+        <ul>
+            <li><a href="https://www.facebook.com" target="_blank"><img src="img/social/facebook.png" alt="facebook"></a></li>
+            <li><a href="https://www.instagram.com" target="_blank"><img src="img/social/instagram.jpg" alt="instagram"></a></li>
+            <li><a href="https://www.youtube.com" target="_blank"><img src="img/social/youtube.png" alt="youtube"></a></li>
+            <li><a href="https://www.tiktok.com" target="_blank"><img src="img/social/tiktok2.png" alt="tiktok"></a></li>
+            <li><a href="https://www.twitter.com" target="_blank"><img src="img/social/twitter.png" alt="twitter"></a></li>
+        </ul>
+    </div>
+</footer>
+
 
 </body>
 </html>

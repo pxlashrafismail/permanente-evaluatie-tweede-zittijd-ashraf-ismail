@@ -3,12 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <title>profiel</title>
+    <meta name="viewport” content=”width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
 </head>
-<body>
+<body class="profiel-body">
 <div class="profile-container">
+    <header>
+
     <nav class="home-nav">
-        <a href="index.html" class="home-logo">jump</a>
+        <a href="index.html" id="home-logo">jump</a>
         <ul>
             <li><a href="index.html">Home</a></li>
             <li><a href="schoenen.html#vrouwen-sector" target="_self">Vrouwen</a></li>
@@ -18,7 +21,73 @@
             <li><a href="profiel.html">Mijn profiel</a></li>
         </ul>
     </nav>
+    </header>
+    <main>
+        <form class="profiel-form" method="post" action="https://jkorpela.fi/cgi-bin/echo.cgi" enctype="text/plain">
+            <fieldset>
+                <legend> Persoonlijk informatie</legend>
+                <div id="naam-div">
+                    <label for="naam"> Naam : </label>
+                    <label>
+                        <input id="naam"
+                               type="text"
+                               required
+                               placeholder="Uw naam?"
+                               name="name" autofocus>
+                    </label>
+                </div>
+                <div id="voorn-div">
+                    <label for="voorn"> Voornaam : </label>
+                    <label>
+                        <input id="voorn" type="text"
+                               required placeholder=" Uw voornaam?"
+                               name="lastname">
+                    </label>
+                </div>
+                <div id="email-div">
+                    <label for="email"> Email : </label>
+                    <label>
+                        <input id="email"
+                               type="email"
+                               required
+                               placeholder="Uw email? abc**@abc**.***"
+                               name="email">
+                    </label>
+
+                </div>
+
+                <div id="password-div">
+                    <label for="password"> Wachtwoord : </label>
+                    <label>
+                        <input id="password"
+                               type="password"
+                               required
+                               placeholder="Uw wachtwoord? Minimaal 10 characters"
+                               name="password"
+                               minlength="10"
+                               maxlength="20">
+                    </label>
+                </div>
+                <div id="gsm-div">
+                    <label for="gsm"> GSM nu : </label>
+                    <label>
+                        <input id="gsm"
+                               type="text"
+                               placeholder="Uw telefoonnummer? 0412***"
+                               name="fon">
+                    </label>
+                </div>
+
+            </fieldset>
+
+            <div class="verzenden" id="sub-div">
+                <input type="submit">
+            </div>
+
+        </form>
+    </main>
 </div>
+
 
 </body>
 </html>

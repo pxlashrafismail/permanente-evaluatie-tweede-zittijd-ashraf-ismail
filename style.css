@@ -46,11 +46,9 @@ nav{
     padding: 20px 0;
 }
 
-.home-logo{
+#home-logo{
     width: 150px;
     height: 150px;
-    color: black;
-    text-decoration: none ;
     text-transform: uppercase;
     font-size: 32px;
     background-color: aqua;
@@ -61,9 +59,8 @@ nav{
     justify-content: center;
     align-items: center;
 }
-.home-logo a{
 
-}
+
 
 .home-nav ul li{
     display: inline-block;
@@ -114,13 +111,18 @@ nav{
     border-radius: 50% 50% 20px 20px;
     opacity:100%;
 }
-@media  (min-width:950px ) and (max-width: 1150px){
-    .home-img {
-        width: 300px;
 
+/*
+@media screen and (max-width: 500px){
+    .home-img img{
+        width: 1000px;
+    }
+    .home-nav{
+        background-color: black;
     }
 
-}
+}*/
+
 
 footer .social ul li{
     display: inline-block;
@@ -137,25 +139,6 @@ footer .social ul li{
     border-radius: 30px;
 }
 
-@media (max-width: 950px) {
-    .home-content, .home-nav{
-        flex-direction: column;
-        justify-content: center;
-    }
-
-    .home-content .home-img, .home-content .home-text{
-        width: 100%;
-    }
-
-    .home-body::after{
-        clip-path: circle(50% at bottom);
-    }
-    .home-logo{
-        width: 100%;
-        height: 100%;
-    }
-
-}
 
 
 
@@ -167,10 +150,40 @@ footer .social ul li{
     justify-content: center;
     align-items: center;
 }
-.schoenen-content img{
-    width: 40%;
-    height: 40%;
+h3{
+    background-color: #6ea8fe;
+    border-radius: 10px;
+    margin: auto 15px;
+    padding: 2px;
 }
+
+
+.schoenen-content img{
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    margin: auto 10px;
+}
+
+.schoenen-content button a, #betalen{
+    color: white;
+}
+
+.schoenen-content button, #betalen{
+    background-color: #a72dc2;
+    position: relative;
+    right: 30px;
+    top: 80px;
+    width: 300px;
+    height: 40px;
+    border-radius: 10px;
+    text-transform: uppercase;
+    font-weight: 800;
+}
+.schoenen-content button:hover, #betalen{
+    background-color: #6ea8fe;
+}
+
 .schoenen-content div{
     width: 80%;
     height: 100%;
@@ -200,3 +213,175 @@ footer .social ul li{
     right: 10px;
     bottom: 10px;
 }
+
+/*contact*/
+
+.contact-body{
+    background-color: #6ea8fe;
+}
+
+.contact-container{
+    width: 80%;
+    height: 90vh;
+    background-image: url("img/background/bk8.jpg");
+    background-size: cover;
+    margin: 5% auto;
+    border-radius: 20px;
+}
+
+form {
+    width: 800px;
+    margin: 20px auto;
+}
+.contact-form fieldset {
+    border: 2px solid navy;
+    background-color: #5a9293;
+    border-radius: 10px;
+    margin: 2px auto;
+
+}
+.contact-form label {
+    display: inline-block;
+    color: #f5f3f3;
+    width: 200px;
+    text-align: right;
+    border-radius: 5px;
+
+}
+
+.contact input {
+    display: inline-block;
+    width: 300px;
+    height: 40px;
+    margin: 5px 20px;
+    border-radius: 5px;
+}
+
+
+legend {
+    text-align: center;
+    background-color: #8bbbf6;
+    color: #000509;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+
+/*profiel*/
+.profiel-form fieldset {
+    border: 2px solid navy;
+    background-color: #076009;
+    border-radius: 10px;
+    margin: 20px auto;
+
+}
+.profiel-form label {
+    display: inline-block;
+    color: #f5f3f3;
+    width: 200px;
+    text-align: right;
+    margin: 5px auto;
+    border-radius: 5px;
+
+}
+
+.profiel-form input {
+    display: inline-block;
+    width: 300px;
+    height: 40px;
+    margin: 5px 25%;
+    border-radius: 5px;
+}
+
+.profiel-body{
+    background-image: url("img/background/bk2.jpg");
+    background-size: cover;
+}
+
+.verzenden{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.verzenden input{
+    background-color: #6ea8fe;
+}
+.verzenden input:hover{
+    background-color: greenyellow;
+}
+.social-contact ul{
+    position: fixed;
+    right: 10%;
+    bottom: 4%;
+}
+
+/*prijslijst*/
+.prijs-lijst-body{
+    background-image: url("img/background/bk4.jpg");
+    background-size: cover;
+}
+.prijslijst-container{
+    width: 80%;
+    margin: auto;
+    height: 80%;
+}
+
+.table-info {
+    caption-side: top;
+    border: 1px solid black;
+    border-radius: 0 0 10px 10px;
+    background-color: #9c34e5;
+    width: 50%;
+    margin-left: 25%;
+    margin-bottom: 20px;
+    text-align: center;
+    padding: 10px;
+}
+
+caption {
+    text-transform: capitalize;
+    background-color: aqua;
+    border-radius: 10px 10px 0 0;
+    border: 1px solid rgba(98, 84, 124, 0.68);
+    font-weight: bold;
+
+}
+
+.table-info td, table th {
+    border-radius: 5px;
+    background-color: white;
+    text-transform: capitalize;
+    border: 1px solid black;
+    padding: 5px;
+}
+
+#betalen{
+
+    margin: 20px 40%;
+}
+
+@media screen and (max-width: 1200px) {
+
+    main{
+
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+}
+@media screen and (max-width: 500px) {
+    .home-container, .schoenen-container, .contact-container, .prijslijst-container, .profile-container{
+        width: 100%;
+        display: flex;
+        flex-flow: column wrap;
+    }
+
+}
+
+
+
