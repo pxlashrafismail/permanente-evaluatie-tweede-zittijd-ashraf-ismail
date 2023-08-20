@@ -1,18 +1,21 @@
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
     font-family: sans-serif;
 }
-a{
+
+a {
     text-decoration: none;
 }
-li{
+
+li {
     list-style-type: none;
 }
-.home-body{
+
+.home-body {
     background-image: url("img/background/bk1.jpg");
-    background-size: cover ;
+    background-size: cover;
     height: 100vh;
     width: 100%;
     display: flex;
@@ -20,24 +23,26 @@ li{
     align-items: center;
 }
 
-.home-body::after{
+.home-body::after {
     content: '';
     width: 100%;
     height: 100%;
-    background-color: rgb(321,158,123);
+    background-color: rgb(321, 158, 123);
     position: absolute;
     clip-path: circle(40% at right 70%);
     z-index: -1;
 }
-.home-container{
+
+.home-container {
     background-color: white;
     opacity: 60%;
     width: 80%;
     height: 80%;
-    border-radius: 20px ;
+    border-radius: 20px;
     overflow: hidden;
 }
-nav{
+
+nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -46,7 +51,7 @@ nav{
     padding: 20px 0;
 }
 
-#home-logo{
+#home-logo {
     width: 150px;
     height: 150px;
     text-transform: uppercase;
@@ -61,55 +66,58 @@ nav{
 }
 
 
-
-.home-nav ul li{
+.home-nav ul li {
     display: inline-block;
     margin: 0 5px;
 }
-.home-nav ul li a{
+
+.home-nav ul li a {
     font-weight: 800;
     background-color: lightgray;
     border-radius: 5px;
 }
 
-.home-nav ul li a:hover{
+.home-nav ul li a:hover {
     color: #000000;
     background-color: #adff2f;
 }
-.home-content{
+
+.home-content {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 80% ;
+    height: 80%;
     width: 80%;
     margin: auto;
 }
 
-.home-content .home-text{
-    width: 40% ;
+.home-content .home-text {
+    width: 40%;
     color: darkblue;
 }
-.home-text h2{
+
+.home-text h2 {
     font-size: 40px;
     text-transform: capitalize;
     font-weight: 700;
 }
-.home-text p{
+
+.home-text p {
     font-size: 18px;
     margin: 10px 0;
     line-height: 25px;
     font-weight: 500;
 }
 
-.home-img{
+.home-img {
     width: 40%;
     margin-left: 50%;
 }
 
-.home-img img{
+.home-img img {
     width: 400px;
     border-radius: 50% 50% 20px 20px;
-    opacity:100%;
+    opacity: 100%;
 }
 
 /*
@@ -124,33 +132,34 @@ nav{
 }*/
 
 
-footer .social ul li{
+footer .social ul li, .schoenen-social ul li {
     display: inline-block;
     list-style-type: none;
     margin-left: 20px;
 }
-.social ul{
+
+.social ul {
     position: fixed;
     bottom: 10%;
     right: 10%;
 }
-.social ul li img {
+
+.social ul li img, .schoenen-social ul img {
     width: 30px;
     border-radius: 30px;
 }
 
 
-
-
 /*schoenen*/
 
-.schoenen-body{
+.schoenen-body {
     background-color: #dc621f;;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-h3{
+
+h3 {
     background-color: #6ea8fe;
     border-radius: 10px;
     margin: auto 15px;
@@ -158,18 +167,18 @@ h3{
 }
 
 
-.schoenen-content img{
+.schoenen-content img {
     width: 200px;
     height: 200px;
     border-radius: 10px;
     margin: auto 10px;
 }
 
-.schoenen-content button a, #betalen{
+.schoenen-content button a, #betalen {
     color: white;
 }
 
-.schoenen-content button, #betalen{
+.schoenen-content button, #betalen {
     background-color: #a72dc2;
     position: relative;
     right: 30px;
@@ -180,11 +189,12 @@ h3{
     text-transform: uppercase;
     font-weight: 800;
 }
-.schoenen-content button:hover, #betalen{
+
+.schoenen-content button:hover, #betalen {
     background-color: #6ea8fe;
 }
 
-.schoenen-content div{
+.schoenen-content div {
     width: 80%;
     height: 100%;
     margin: 10px auto;
@@ -196,17 +206,18 @@ h3{
 }
 
 
-.schoenen-content h2{
+.schoenen-content h2 {
     text-transform: capitalize;
     border-radius: 5px;
     width: 20%;
     height: 30px;
-    margin-left:40% ;
+    margin-left: 40%;
     text-align: center;
     background-color: blue;
     color: white;
 }
-.naar-boven img{
+
+.naar-boven img {
     width: 50px;
     height: 50px;
     position: fixed;
@@ -214,13 +225,31 @@ h3{
     bottom: 10px;
 }
 
+.schoenen-social ul li {
+    display: inline-block;
+    justify-content: center;
+    align-content: center;
+}
+
+.schoenen-social ul {
+    background-color: #810a0a;
+    width: 80%;
+    height: 50px;
+    border-radius: 10px 10px 0 0;
+    margin: 10px 10% 0;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+
+}
+
 /*contact*/
 
-.contact-body{
+.contact-body {
     background-color: #6ea8fe;
 }
 
-.contact-container{
+.contact-container {
     width: 80%;
     height: 90vh;
     background-image: url("img/background/bk8.jpg");
@@ -233,6 +262,7 @@ form {
     width: 800px;
     margin: 20px auto;
 }
+
 .contact-form fieldset {
     border: 2px solid navy;
     background-color: #5a9293;
@@ -240,6 +270,7 @@ form {
     margin: 2px auto;
 
 }
+
 .contact-form label {
     display: inline-block;
     color: #f5f3f3;
@@ -275,6 +306,7 @@ legend {
     margin: 20px auto;
 
 }
+
 .profiel-form label {
     display: inline-block;
     color: #f5f3f3;
@@ -293,34 +325,38 @@ legend {
     border-radius: 5px;
 }
 
-.profiel-body{
+.profiel-body {
     background-image: url("img/background/bk2.jpg");
     background-size: cover;
 }
 
-.verzenden{
+.verzenden {
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.verzenden input{
+
+.verzenden input {
     background-color: #6ea8fe;
 }
-.verzenden input:hover{
+
+.verzenden input:hover {
     background-color: greenyellow;
 }
-.social-contact ul{
+
+.social-contact ul {
     position: fixed;
     right: 10%;
     bottom: 4%;
 }
 
 /*prijslijst*/
-.prijs-lijst-body{
+.prijs-lijst-body {
     background-image: url("img/background/bk4.jpg");
     background-size: cover;
 }
-.prijslijst-container{
+
+.prijslijst-container {
     width: 80%;
     margin: auto;
     height: 80%;
@@ -355,14 +391,14 @@ caption {
     padding: 5px;
 }
 
-#betalen{
+#betalen {
 
     margin: 20px 40%;
 }
 
 @media screen and (max-width: 1200px) {
 
-    main{
+    main {
 
         width: 100%;
         height: 100%;
@@ -375,8 +411,9 @@ caption {
     }
 
 }
+
 @media screen and (max-width: 500px) {
-    .home-container, .schoenen-container, .contact-container, .prijslijst-container, .profile-container{
+    .home-container, .schoenen-container, .contact-container, .prijslijst-container, .profile-container {
         width: 100%;
         display: flex;
         flex-flow: column wrap;

@@ -16,7 +16,8 @@ Plaats hier wanneer je aan de opdracht hebt gewerkt, hoelang dat je aan de opdra
 * <i> donderdag 17/8/2023 , van 09.00 tot 12.00u (3u), html , css en bootstrap van de 4de pagina "promotie".</i>
 * <i> vrijdag 18/8/2023 , van 09.00 tot 13.00u (4u), html , css de 5de (contact) en de 6de pagina "prijslijst".</i>
 * <i> vrijdag 18/8/2023 , van 18.00 tot 20.00u (4u), html , css de 7de (profiel) en responsiev.</i>
-* <i> zaterjdag 20/8/2023 , van 09.00 tot 13.00u (4u), html , css de responsiev.</i>
+* <i> zaterdag 19/8/2023 , van 09.00 tot 13.00u (4u), html , css de responsiev.</i>
+* <i> zondag 20/8/2023 , van 09.00 tot 12.00u (3u), html , css controleren dan sturen.</i>
 * ...
 * ...
 * ...
